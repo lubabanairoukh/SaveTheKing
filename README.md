@@ -41,5 +41,7 @@ This project is an enhanced implementation of the "Save the King" game, previous
 - **SFML:** Graphics and sound library.
 - **Object-Oriented Programming:** Inheritance, polymorphism.
 
-## Contributors
-- Lubaba Nairoukh
+
+## Watch the Game
+You can watch a gameplay video of "Save the King" here: https://www.youtube.com/watch?v=TM_TAD6ZrgA
+
