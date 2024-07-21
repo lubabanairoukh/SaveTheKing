@@ -1,15 +1,45 @@
+# Save the King Game
+
+## Project Description
+This project is an enhanced implementation of the "Save the King" game, previously developed in Exercise 2. The main differences this time are the use of inheritance and polymorphism, as well as the SFML graphics library. The game is now designed with better object-oriented principles and includes additional features compared to the previous version.
+
+## Features and Enhancements
+- **Real-Time Game:** The game now operates in real-time, driven by a clock rather than turns.
+- **Collision Detection:** Improved collision detection between characters and tiles, using overlapping rectangles.
+- **Dwarves:** Added randomly wandering dwarf characters that block player movement.
+- **Time Limit:** Some levels now have a time limit, which can be predefined or random.
+- **Gifts:** New items in the game that affect gameplay, such as increasing/decreasing the time limit or removing all dwarves from the level.
+
+## Game Mechanics
+- **Real-Time Movement:** Characters move in real-time based on clock ticks rather than turns.
+- **Collisions:** Defined by overlapping bounding rectangles of characters and tiles.
+- **Gifts:** Types of gifts include time extensions, time reductions, and dwarf removal.
+- **Levels:** At least three levels, with an easy way to add new levels without modifying the code.
+
+## Menu and Display
+- **Menu:** Basic menu for starting a new game, viewing help, or exiting.
+- **Information Display:** Shows level number, elapsed time, and remaining time if there is a time limit.
+
+## Movement and Controls
+- **Movement:** Characters move in straight lines along the axes.
+- **Controls:** Arrow keys for movement, using SFML events for key presses.
+
+## Design and Implementation
+- **Object-Oriented Design:** Proper use of inheritance and polymorphism.
+- **Graphics:** Use of SFML for graphics, including transparent PNG images for characters.
+- **Sound:** Added sound effects using SFML.
 
 
-In this captivating game, you'll assume the role of one of four characters: the valiant King, the cunning Thief, the powerful Mage, or the stalwart Warrior. Your mission? Guide the King to the throne, a task fraught with challenges.
+## Usage
+- Use the arrow keys to move the characters.
+- Collect gifts by walking over them.
+- Avoid or navigate around dwarves.
+- Complete the level within the time limit if applicable.
 
-Beware the obstacles that lie in wait – fire traps, walls, gates, and even lurking orcs. Unlike these static obstacles, mischievous dwarves are on the move, adding an element of dynamism to the gameplay. But fear not, for each character has unique strengths:
+## Technologies Used
+- **C++:** Core programming language.
+- **SFML:** Graphics and sound library.
+- **Object-Oriented Programming:** Inheritance, polymorphism.
 
-The Warrior is your weapon against trolls, striking them down with skill.
-Keys dropped by defeated orcs become a lifeline for the nimble Thief, enabling gate-opening maneuvers.
-The Mage's mastery over magic extends to erasing fire traps, clearing a safe path.
-As for the King, well, his significance is evident as the centerpiece of your quest.
-To facilitate your journey, teleporters await, offering swift passage to distant locales. However, the game introduces two types of items, each with its own twist:
-
-One type alters time, either adding precious moments or slyly subtracting them – a test of your luck and resourcefulness.
-The second type is considerably more impactful, eliminating all dwarves from the field, a truly magnificent game-changer.
-Prepare to engage in a strategic, fantasy-laden escapade that demands wit, timing, and a dash of chance. Can you navigate the obstacles, outsmart the dwarves, and usher the King to his rightful throne? The adventure awaits!
+## Contributors
+- Lubaba Nairoukh
